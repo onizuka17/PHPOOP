@@ -31,6 +31,10 @@ class DongVat
     {
     	return $this->ten;
     }
+    
+    public function setTen($tenmoi){
+    	 $this->ten = $tenmoi;
+    }
 
 }
 
